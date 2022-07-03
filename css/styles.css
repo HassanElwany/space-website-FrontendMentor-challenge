@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("/starter-code/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: white;
+}
+header {
+  margin-top: 2%;
+}
+hr {
+  color: #beabab;
+  width: 35rem;
+  height: 1rem;
+  position: absolute;
+  margin-right: 2%;
+}
+.navbar-brand {
+  margin: 0 7% 0 3%;
+}
+.ul-nav {
+  background-color: #383b4b;
+  padding: 1.5% 3%;
+  width: 65%;
+}
+
+.container-fluid {
+  padding-right: 0;
+}
