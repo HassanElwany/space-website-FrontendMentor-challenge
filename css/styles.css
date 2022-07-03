@@ -1,28 +1,38 @@
 * {
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
 }
-img {
+/* img {
   max-width: 100%;
-}
+} */
 body {
   font-family: "Poppins", sans-serif;
   background-image: url("/starter-code/assets/home/background-home-desktop.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  max-height: 100%;
+  width: 100%;
   color: white;
+  overflow: hidden;
 }
 header {
   margin-top: 2%;
 }
 hr {
-  color: #beabab;
-  width: 35rem;
+  color: #ffffff;
+  opacity: 0.25;
+  width: 35%;
   height: 1rem;
   position: absolute;
-  margin-right: 2%;
+}
+ul li a {
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  line-height: 19px;
+  letter-spacing: 2.7px;
 }
 .navbar-brand {
   margin: 0 7% 0 3%;
@@ -35,4 +45,55 @@ hr {
 
 .container-fluid {
   padding-right: 0;
+}
+
+/* content of body */
+/* .col-content {
+  width: 450px;
+} */
+
+.center-hero {
+  margin-top: 11%;
+  margin-left: 5%;
+}
+
+.col-content {
+  padding: 1% 5% 5%;
+}
+
+.col-content .top-par {
+  font-size: 2rem;
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 4.725px;
+  color: #d0d6f9;
+}
+
+.hero-head {
+  font-family: "Bellefair", serif;
+  font-size: 9.37rem;
+  line-height: 172px;
+  color: #ffffff;
+}
+
+.bottom-par {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.12rem;
+  line-height: 32px;
+  width: 55%;
+  color: #d0d6f9;
+}
+.ex-background {
+  position: absolute;
+  margin-top: 5%;
+}
+
+.explor-content {
+  position: relative;
+  font-family: "Bellefair", serif;
+  font-size: 2rem;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0b0d17;
+  margin: 35% auto 0;
+  padding-left: 10%;
 }
